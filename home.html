@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Project 0</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/latinTexts.css">
+    <style>
+        @media (min-width: 500px) {
+            h1::before {
+                content: "Arbitrarily chosen latin texts";
+            }
+        }
+
+        @media (max-width: 499px) {
+            h1::before {
+                content: "Latin texts";
+            }
+        }
+    </style>
+</head>
+<body>
+<header></header>
+<!--Navbar-->
+<nav class="navbar navbar-light bg-light">
+
+    <!-- Navbar brand -->
+    <a class="navbar-brand" href="#">
+        <img src="https://prod-edx-edxapp-assets.edx-cdn.org/static/edx.org/images/logo.790c9a5340cb.png" height="25"
+             class="d-inline-block align-top" alt="edx logo">
+        Menu
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<section>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">
+            </h1>
+            <p class="lead">A selection of random and arbitrary latin texts. Because it's silly, slightly pedantic and
+                ultimately
+                useless. Why not :P.
+            </p>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <div>
+            <h2>
+                <br>
+                Table of Contents
+            </h2>
+        </div>
+        <div class="container">
+            <br>
+            <ul>
+                <li>
+                    <div>Lorem Ipsum</div>
+                </li>
+                <li>
+                    <div>Carpe Diem</div>
+                </li>
+                <li>
+                    <div>Dies Irae</div>
+                </li>
+                <li>
+                    <div>Aeneid</div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <div>
+            <h2>
+                <br>
+                Card Shuffle
+            </h2>
+        </div>
+        <div>
+            <br>
+            <table class="table">
+                <thead>
+                <tr>
+                    <th scope="col">text 1</th>
+                    <th scope="col">text 2</th>
+                    <th scope="col">text 3</th>
+                    <th scope="col">text 4</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">
+                        <div class="card text-center" style="width: 18rem;">
+                            <a href="loremIpsum.html">
+                                <img src="images/book.jpg" class="card-img-top" alt="book" style="width: 18rem;">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">Lorem Ipsum</h5>
+                                <p class="card-text">The standard text used since the beginning of (time) printing to
+                                    set text layouts.</p>
+                            </div>
+                        </div>
+                    </th>
+                    <th scope="row">
+                        <div class="card text-center" style="width: 18rem;">
+                            <a href="carpeDiem.html">
+                                <img src="images/delphinium_bellamosum_blue_donna_02.jpg" class="card-img-bottom"
+                                     alt="flower">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">Carpe Diem</h5>
+                                <p class="card-text">Live now before death catches you. In other words... what are you
+                                    doing here?</p>
+                            </div>
+                        </div>
+                    </th>
+                    <th scope="row">
+                        <div class="card text-center" style="width: 18rem;">
+                            <a href="diesIrae.html">
+                                <img src="images/candles.jpg" class="card-img-bottom"
+                                     alt="candles">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">Dies Irae</h5>
+                                <p class="card-text">First part of the Sequentia of Mozart's Requiem. Tremble, oh poor
+                                    mortal.</p>
+                            </div>
+                        </div>
+                    </th>
+                    <th scope="row">
+                        <div class="card text-center" style="width: 18rem;">
+                            <a href="aeneid.html">
+                                <img src="images/sword.png" class="card-img-bottom"
+                                     alt="sword">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">Aeneid</h5>
+                                <p class="card-text">The tales of the greek hero Aeneas, by Virgil, at the gates of the
+                                    underworld.</p>
+                            </div>
+                        </div>
+                    </th>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <br>
+    <br>
+</section>
+<footer class="card-footer">
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="#"> Ana Martinez</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+</body>
+</html>
